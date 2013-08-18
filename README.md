@@ -1,6 +1,11 @@
 Playing with Typesafe
 ======================
 
+Aug 18, 2013
+--------------------
+* Reading on Play framework
+* Playing with play's routes & tests
+
 Aug 14, 2013
 --------------------
 * Paid $6 for a Digital Ocean droplet
