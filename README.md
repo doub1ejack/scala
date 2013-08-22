@@ -1,6 +1,17 @@
 Playing with Typesafe
 ======================
 
+Aug 21, 2013
+--------------------
+* Installed MongoDB
+* Walked through Mongo tutorials & played with console
+* Installed driver casbah
+* Wiped old tutorial that used evolution
+* Set dependencies in project/Build.scala
+* Thoughts
+    * Should be able to sit down & code tomorrow
+    * Might be fun to use Digital Ocean droplet api to fire up multi servers & investigate sharding
+
 Aug 18, 2013
 --------------------
 * Reading on Play framework
