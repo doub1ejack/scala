@@ -1,6 +1,11 @@
 Playing with Typesafe
 ======================
 
+Aug 23, 2013
+--------------------
+* Figured out that I would need salat as an ORM - added that
+* Tried and failed to follow tutorial at Thijs Lemmen's blog
+
 Aug 21, 2013
 --------------------
 * Installed MongoDB
