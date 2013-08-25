@@ -1,7 +1,40 @@
-@(message: String)
+@(tasks: List[Task], taskForm: Form[String])
 
-@main("Welcome to Play 2.1") {
-    
-    @play20.welcome(message)
+@import helper._
+
+@main("Todo list") {
+<div id="wrapper">
+  
+  <div id="task-wrapper">
+    <div id="task-list">    
+      <h1>@tasks.size task(s)</h1>
+      
+      <ul>
+          @tasks.map { task =>
+              <li>
+                  <span>@task.label</span>
+                  
+                  @form(routes.Application.deleteTask(task._id.toString)) {
+                      <input type="submit" value="Delete">
+                  }
+              </li>
+          }
+      </ul>
+    </div>
+      
+    <div id="task-add">
+      <h2>Add a new task</h2>
+      
+      @form(routes.Application.newTask) {
+          
+          @inputText(taskForm("label"), 'id -> "label", '_label -> "New Task:") 
+          
+          <input type="submit" value="Add Task">
+          
+      }
+    </div>
+  </div>
+
+</div>
     
 }
