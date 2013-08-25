@@ -1,0 +1,62 @@
+
+body,html {
+  text-align: center;
+}
+#wrapper {
+  width: 600px;
+  margin: auto;
+  text-align: left;
+  -webkit-box-shadow: 5px 5px 10px 0px #777;
+  box-shadow: 5px 5px 10px 0px #777;
+}
+
+/* TODO LIST */
+#task-wrapper {
+  background: url(/assets/images/rule.jpg) #FF9;
+}
+#task-list,
+#task-add {
+  margin: 0px 110px;
+  padding: 20px 0 0 40px;
+  border-left: double #F00 4px;
+}
+#task-list {
+  margin-top: 40px;
+  overflow: auto;
+}
+#task-list ul {
+  margin-bottom: 0;
+  overflow: auto;
+}
+#task-list ul li {
+  list-style-type: none;
+  clear: left;
+}
+#task-list ul li span,
+#task-list ul li form {
+  float: left;
+}
+#task-list ul li form {
+  margin-left: 15px; 
+}
+
+/* FORM */
+dt {
+  float: left;
+  clear: left;
+}
+dd {
+  float: left;
+  margin-left: 15px;
+}
+#task-add {
+  padding-bottom: 50px; 
+}
+#task-add #label_field {
+  overflow: auto;
+}
+#label {
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #CCC;
+  padding: 3px 5px;
+}

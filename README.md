@@ -1,6 +1,13 @@
 Playing with Typesafe
 ======================
 
+AUG 24, 2013
+--------------
+* Salat is working fine
+* Modified my project & the Play Todo tutorial to use mongoDB
+* A little css while I looked at the views
+* Merged the mongo-salat branch into master
+
 Aug 23, 2013 (Branch: mongo-salat)
 ---------------------------------------
 * Figured out that I would need salat as an ORM - added that
